@@ -1,0 +1,37 @@
+{
+  "name": "projecthera",
+  "version": "1.0.0",
+  "description": "new api for account creation with hedera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohitkumaroneto11/projecthedera.git"
+  },
+  "keywords": [
+    "hedera"
+  ],
+  "author": "Sumit,Mohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohitkumaroneto11/projecthedera/issues"
+  },
+  "homepage": "https://github.com/Mohitkumaroneto11/projecthedera#readme",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "helmet": "^5.1.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.6.1",
+    "method-override": "^3.0.0",
+    "needle": "^3.1.0",
+    "util": "^0.12.4"
+  }
+}
